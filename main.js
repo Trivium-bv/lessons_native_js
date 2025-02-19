@@ -1,4 +1,4 @@
-// let user = {
+//let user = {
 //     name: 'Bob',
 //     age: 45,
 //     isStudent: true
@@ -76,3 +76,10 @@
 //         ...newSuperUser2.adress.geo,
 //             s: 2, n: 7}}}
 
+
+//ДЕСТРУКТУРИРУЮЩЕЕ ПРИСВАИВАНИЕ
+const array = ["Bob, Alex"]
+const [bob, alex] = array
+
+const studend = {name: "Marlin", age: 19 }
+const {name, age} = studend
