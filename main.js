@@ -4,6 +4,12 @@
 //     isStudent: true
 // }
 //
+const u1 = {}
+const u2 = u1
+console.log(u1 === u2)
+
+/*Каков результат выполнения этого выражения?*/
+
 // const user1 = user
 // console.log(user === user1)  // true (по ссылке это один object)
 //
@@ -65,7 +71,7 @@
 //     },
 //     phone: '322541',
 //     company: {
-//         name: 'It-incubaotr',
+//         name: 'It-incubator',
 //         bs: 'target-marketolog'
 //     }
 // }
