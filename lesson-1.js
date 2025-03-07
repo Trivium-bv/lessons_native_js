@@ -1,12 +1,12 @@
-//let user = {
+// let user = {
 //     name: 'Bob',
 //     age: 45,
 //     isStudent: true
 // }
 //
-const u1 = {}
-const u2 = u1
-console.log(u1 === u2)
+// const u1 = {}
+// const u2 = u1
+// console.log(u1 === u2)
 
 /*Каков результат выполнения этого выражения?*/
 
@@ -84,8 +84,8 @@ console.log(u1 === u2)
 
 
 //ДЕСТРУКТУРИРУЮЩЕЕ ПРИСВАИВАНИЕ
-const array = ["Bob, Alex"]
-const [bob, alex] = array
-
-const studend = {name: "Marlin", age: 19 }
-const {name, age} = studend
+// const array = ["Bob, Alex"]
+// const [bob, alex] = array
+//
+// const studend = {name: "Marlin", age: 19 }
+// const {name, age} = studend
