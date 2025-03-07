@@ -1,7 +1,7 @@
 const numbers = [1,2,3,4,5,6]
 
-//1.
-// //push
+//1.push
+//
 // //numbers.push(7)
 // myPush(numbers, 7)
 //
@@ -11,7 +11,7 @@ const numbers = [1,2,3,4,5,6]
 // }
 // console.log(numbers)
 
-//2.
+//2.push
 //push
 //numbers.push(7)
 
@@ -34,3 +34,13 @@ const numbers = [1,2,3,4,5,6]
 // }
 // myPush(numbers, 7, 8, 9)
 // console.log(numbers)
+
+//3.pop
+function myPop(array) {
+    const lastElement = array[array.length-1]
+    array.length = array.length-1
+    return lastElement
+}
+
+console.log(myPop(numbers))
+console.log(numbers)
