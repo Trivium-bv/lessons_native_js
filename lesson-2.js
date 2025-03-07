@@ -36,11 +36,23 @@ const numbers = [1,2,3,4,5,6]
 // console.log(numbers)
 
 //3.pop
-function myPop(array) {
-    const lastElement = array[array.length-1]
+// function myPop(array) {
+//     const lastElement = array[array.length-1]
+//     array.length = array.length-1
+//     return lastElement
+// }
+//
+// console.log(myPop(numbers))
+// console.log(numbers)
+
+function myShift(array) {
+    const firstElement = array[0]
+    for (let i = 1; i < array.length; i++) {
+        array[i - 1] = array[i]
+    }
     array.length = array.length-1
-    return lastElement
+    return firstElement
 }
 
-console.log(myPop(numbers))
+console.log(myShift(numbers))
 console.log(numbers)
